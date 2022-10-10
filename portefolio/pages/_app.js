@@ -1,7 +1,19 @@
 import "tailwindcss/tailwind.css";
+import Header from "./home/header/Header";
+import { Component } from "react";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+const style = {
+  background : "bg-slate-800"
 }
 
-export default MyApp;
+class App extends Component {
+  render() {
+    return (
+      <div className={style.background}>
+        <Header/>
+      </div>
+    );
+  }
+}
+
+export default App;

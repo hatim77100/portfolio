@@ -7,8 +7,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins : ["Poppins", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        oppenSans: ['Open Sans', "sans-serif"],
       },
+      gridTemplateRows: {
+        // Complex site-specific row configuration
+        'layout': '60px 300px',
+      }
     },
   },
   plugins: [],
