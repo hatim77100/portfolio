@@ -2,7 +2,7 @@
 const style = {
   absolute: "absolute",
   right: "right-3",
-  top: "top-0"
+  top: "top-2"
 };
 
 const Iconav = () => {
