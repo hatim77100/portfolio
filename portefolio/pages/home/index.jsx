@@ -5,7 +5,8 @@ const HomePage = () => {
   return (
     <>
       {/* <title>Portfolio Hatim</title> */}
-      <Layout children={<Content />} />
+      {/* <Footer /> */}
+      {/* <Layout children={<Content />} /> */}
     </>
   );
 };

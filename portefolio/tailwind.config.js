@@ -13,7 +13,7 @@ module.exports = {
       gridTemplateRows: {
         // Complex site-specific row configuration
         'layout': '60px 300px',
-      }
+      },
     },
   },
   plugins: [],

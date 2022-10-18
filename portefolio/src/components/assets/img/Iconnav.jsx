@@ -1,11 +1,10 @@
-
 const style = {
   absolute: "absolute",
   right: "right-3",
-  top: "top-2"
+  top: "top-2",
 };
 
-const Iconav = () => {
+const Iconav = ({ onClick }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,6 +16,7 @@ const Iconav = () => {
       preserveAspectRatio="xMidYMid meet"
       version="1.0"
       className={`${style.absolute} ${style.right} ${style.top}`}
+      onClick={onClick}
     >
       <defs>
         <clipPath id="d485a54d1d">
@@ -78,7 +78,7 @@ const Iconav = () => {
         />
       </g>
     </svg>
-  )
+  );
 };
 
 export default Iconav;
