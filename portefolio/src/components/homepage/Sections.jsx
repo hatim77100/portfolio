@@ -1,13 +1,13 @@
-import Name from "./name";
+import Name from "./Name";
 
  const style = {
-     bg: " bg-[#0D0628]",
+     bg: "bg-[#0D0628]",
      m0: "m-0",
 }
 
 const Sections = () => {
     return (
-        <div className= {`${style.bg} ${style.m0}`}>
+        <div className={`${style.bg} ${style.m0}`}>
             <Name />
         </div>
     )
