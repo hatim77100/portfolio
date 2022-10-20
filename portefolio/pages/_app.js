@@ -3,7 +3,6 @@ import Header from "../src/components/header/Header";
 import Sections from "@src/components/homepage/Sections";
 import { Component } from "react";
 
-
 const style = {
   background: "bg-[#341367]",
 };
