@@ -7,6 +7,8 @@ const styles = {
   title: "text-white text-xl text-center font-bold pt-4",
   p4: "p-4",
   shadow: "drop-shadow-[0_20px_20px_rgba(141,125,175,.5)]",
+  cursor: "pointer",
+  rounded: "rounded",
 };
 
 export default styles;

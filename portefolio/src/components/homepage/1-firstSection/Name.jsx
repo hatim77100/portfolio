@@ -21,7 +21,7 @@ let styles = {
   p4: "px-4",
   border: "border-t-4 border-red-500 w-3/5",
   flexCenter: "flex justify-center",
-  h1: "capitalize text-red-500 text-2xl font-bold text-center w-4/5",
+  h1: "capitalize text-red-500 text-3xl font-extrabold text-center w-11/12 leading-10",
   button:
     "text-white capitalize text-2xl bg-[#3848F1] px-4 py-2 rounded-full font-bold",
 };
@@ -38,7 +38,7 @@ const Name = () => {
         <hr className={`${styles.border}`}></hr>
       </div>
       <div className={`${styles.flexCenter} ${styles.pt6}`}>
-        <h1 className={`${styles.h1}`}>développeur créatif full js</h1>
+        <h1 className={`${styles.h1}`}>développeur créatif React / Node</h1>
       </div>
       <div className={`${styles.pt12} ${styles.flexCenter}`}>
         <span className={styles.button}>
