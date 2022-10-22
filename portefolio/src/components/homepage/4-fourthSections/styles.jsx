@@ -6,9 +6,20 @@ const styles = {
     mt12: "mt-12",
     title: "text-white text-xl text-center font-bold pt-4",
     p4: "p-4",
+    pb4: "pb-4",
+    px4: "mx-4",
     shadow: "drop-shadow-[0_20px_20px_rgba(141,125,175,.5)]",
     cursor: "pointer",
     rounded: "rounded",
+    bg : "bg-[#472E65]",
+    textWhite: "text-white",
+    italic:"italic",
+    m0:"m-0",
+    mt12:"mt-12",
+    uppercase: "uppercase",
+    mtN4: "-mt-4",
+    capitalize: "capitalize",
+    leading8:"leading-8",
   };
   
   export default styles;
