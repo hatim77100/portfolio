@@ -1,6 +1,6 @@
 import Name from "./1-firstSection/Name";
 import { Present } from "@src/components/homepage/2-secondSection/presentation";
-import { Creation } from "./3-thirthSection/creation";
+import Creations from "./3-thirthSection/creations";
 import Prestation from "./4-fourthSections/Prestations";
 
 const style = {
@@ -13,7 +13,7 @@ const Sections = () => {
     <div className={`${style.bg} ${style.m0}`}>
       <Name />
       <Present />
-      <Creation />
+      <Creations />
       <Prestation />
     </div>
   );
