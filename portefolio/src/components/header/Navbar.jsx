@@ -51,7 +51,7 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <header>
       <div>
         <Logo className={z0} />
         <Iconav className={`${z10} ${cursor}`} onClick={toggle} />
@@ -100,7 +100,7 @@ const Navbar = () => {
         " "
       )}
       ;
-    </div>
+    </header>
   );
 };
 
