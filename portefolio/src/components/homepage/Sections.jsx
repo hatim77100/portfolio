@@ -2,7 +2,8 @@ import Name from "./1-firstSection/Name";
 import { Present } from "@src/components/homepage/2-secondSection/presentation";
 import Creations from "./3-thirthSection/creations";
 import Prestation from "./4-fourthSections/Prestations";
-import  Contact from "./contact/contact"
+import Contact from "./contact/contact";
+
 
 const style = {
   bg: "bg-[#0D0628]",
@@ -14,9 +15,13 @@ const Sections = () => {
     <div className={`${style.bg} ${style.m0}`}>
       <Name />
       <Present />
+      <div id="creations">
       <Creations />
+      </div>
       <Prestation />
+    <div id="contact">
       <Contact />
+      </div>
     </div>
   );
 };

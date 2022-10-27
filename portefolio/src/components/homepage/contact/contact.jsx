@@ -7,7 +7,7 @@ const Contact = () => {
       <div className={`${styles.flexCenter} ${styles.pt8}`}>
         <hr className={`${styles.border} `}></hr>
       </div>
-      <form className={`${styles.textWhite} ${styles.mt16} ${styles}`}>
+      <form className={`${styles.textWhite} ${styles.mt16} ${styles}`} >
         
           <div className={`${styles.grid} ${styles.ml4}`}>
             <label htmlFor="name">Nom</label>
@@ -15,7 +15,7 @@ const Contact = () => {
               type="text"
               name="name"
               id="name"
-              className={`${styles.input} ${styles.inlineBlock} ${styles.bgBlack} ${styles.mtN2} ${styles.ml4}`}
+              className={`${styles.input} ${styles.inlineBlock} ${styles.bgBlack} ${styles.ml4} ${styles.textSm}`}
               placeholder="nom et prenom"
             />
           </div>
@@ -25,7 +25,7 @@ const Contact = () => {
               type="text"
               name="mail"
               id="mail"
-              className={`${styles.input} ${styles.bgBlack} ${styles.inlineBlock} ${styles.mtN2} ${styles.ml4}`}
+              className={`${styles.input} ${styles.bgBlack} ${styles.inlineBlock} ${styles.ml4} ${styles.textSm}`}
               placeholder="adresse mail"
             />
           </div>
@@ -44,7 +44,10 @@ const Contact = () => {
               className={`${styles.bgArea} ${styles.rounded} ${styles.outlineNone} ${styles.inlineBlock} ${styles.p4}`}
               placeholder="votre message"
             ></textarea>
-          </div>
+        </div>
+        <div className={styles.flexCenteritems}>
+        <button type="submit" className={styles.button}>Envoyer</button>
+        </div>
       
       </form>
     </>

@@ -17,6 +17,13 @@
       "image": "/data/imgCreation/agencEclair.png",
       "link": "#",
       "title": "Agence web"
+    },
+    {
+      "_id": 3,
+      "image": "/data/imgCreation/cvEnLigne.png",
+      "link": "https://hatim-najoua.netlify.app/",
+      "title": "CV"
     }
+
   ]
 }
