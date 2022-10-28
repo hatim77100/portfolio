@@ -1,5 +1,7 @@
 import Image from "next/image";
-import styles from "./styles";
+import {styles} from "./styles";
+import { stylesMd } from "./styles";
+import { stylesLg } from "./styles";
 import Projets from "./projets";
 import data from "./data";
 
@@ -9,9 +11,10 @@ const Prestation = () => {
       <div className={`${styles.mb8}`}>
         <h2 className={`${styles.h2}`}>Mes prestations</h2>
         <div className={`${styles.flexCenter}`}>
-          <hr className={`${styles.border}`} />
+          <hr className={`${styles.border} ${stylesMd.width} ${stylesLg.width}`} />
         </div>
       </div>
+      <div className={stylesMd.grid}>
       {data.projects.map((project) => {
         // console.log(project);
         return (
@@ -27,6 +30,7 @@ const Prestation = () => {
           </div>
         );
       })}
+      </div>
     </section>
   );
 };
