@@ -1,5 +1,5 @@
 
-const styles = {
+export const styles = {
     h2: "uppercase text-white text-3xl font-bold text-center -mt-16",
     flexCenter: "flex justify-center",
     border: "border-t-4 border-[#EF43CF] w-8/12",
@@ -8,4 +8,9 @@ const styles = {
     mx2 : "mx-4",
 }
 
-export default styles;
+export const stylesMd = {
+    width: "md:w-3/12"
+}
+export const stylesLg = {
+    width: "md:w-[210px]"
+}

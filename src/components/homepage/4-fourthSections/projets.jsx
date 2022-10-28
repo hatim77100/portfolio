@@ -1,4 +1,5 @@
-import styles from "./styles";
+import { styles } from "./styles";
+import { stylesMd} from "./styles";
 
 const Projets = ({ image, title, p1, p2, p3, p4 }) => {
   return (
@@ -7,7 +8,7 @@ const Projets = ({ image, title, p1, p2, p3, p4 }) => {
         className={`${styles.bg} ${styles.flexCenterCol} ${styles.px4} ${styles.rounded}`}
       >
         <div className={styles.p4}>{image}</div>
-        <h3 className={`${styles.title} ${styles.mtN4} ${styles.capitalize}`}>
+        <h3 className={`${styles.title} ${styles.mtN4} ${styles.capitalize} ${stylesMd.px2} ${stylesMd.title}`}>
           {title}
         </h3>
         <div

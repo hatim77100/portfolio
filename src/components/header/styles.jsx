@@ -1,4 +1,4 @@
-const styles = {
+export const styles = {
   uppercase: "uppercase",
   fontSize: "text-lg",
   fontBold: "font-bold",
@@ -17,6 +17,17 @@ const styles = {
   flex: "flex",
   justifyCenter: "justify-center",
   cursor: "pointer",
+  hidden: "hidden",
 };
 
-export default styles;
+export const stylesLg = {
+  hidden: "lg:hidden",
+  inline: "lg:inline",
+  flex: "lg:flex lg:justify-evenly lg:items-center ",
+  py0: "lg:py-0",
+  gridCol2: "lg:grid lg:grid-cols-[100px_1fr]",
+  mt2: "lg:mt-2",
+  gridSelfCenter: "lg:grid lg:justify-self-center",
+  wFull: "lg:w-full",
+  h16:"lg:h-[66px]",
+}

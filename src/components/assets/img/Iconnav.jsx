@@ -1,3 +1,5 @@
+import { stylesLg } from "@src/components/header/styles";
+
 const style = {
   absolute: "absolute",
   right: "right-3",
@@ -15,7 +17,7 @@ const Iconav = ({ onClick }) => {
       height="60"
       preserveAspectRatio="xMidYMid meet"
       version="1.0"
-      className={`${style.absolute} ${style.right} ${style.top}`}
+      className={`${style.absolute} ${style.right} ${style.top} ${stylesLg.hidden}`}
       onClick={onClick}
     >
       <defs>

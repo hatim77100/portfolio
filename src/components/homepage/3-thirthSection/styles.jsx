@@ -1,4 +1,4 @@
-const styles = {
+export const styles = {
   h2: "uppercase text-white text-3xl font-bold text-center mt-20",
   flexCenterCol: "flex flex-col justify-center items-center",
   flexCenter: "flex justify-center",
@@ -11,4 +11,11 @@ const styles = {
   rounded: "rounded",
 };
 
-export default styles;
+export const stylesMd = {
+  width: "md:w-[230px]",
+  gridCol:"md:grid md:grid-cols-2"
+}
+export const stylesLg = {
+  // width: "lg:w-[230px]",
+  gridCol:"lg:grid lg:grid-cols-4"
+}
