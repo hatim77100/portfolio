@@ -23,7 +23,7 @@ export const styles = {
 };
 
 export const stylesMd = {
-  width: "md:w-3/12",
+  width: "md:w-[216px]",
   flexCenter: "md:flex md:justify-center md:items-center",
 };
 
@@ -31,5 +31,6 @@ export const stylesLg = {
   gridCol2: "lg:grid lg:grid-cols-2",
   flex: "lg:flex lg:flex-col lg:justify-center lg:items-center",
   flexBetween: "lg:flex lg:justify-between",
-  wFull:"lg:w-full"
+  wFull: "lg:w-full",
+  width: "lg:w-3/12",
 }
