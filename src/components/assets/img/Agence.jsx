@@ -8,6 +8,7 @@ const Agence = () => {
       src={AgenceEclair}
       width="288"
       height="367.31"
+      alt="agence web"
       className={styles.rounded}
     />
   );

@@ -12,7 +12,7 @@ const Contact = () => {
         ></hr>
       </div>
 
-      <div>
+      <>
         <form
           className={`${styles.textWhite} ${styles.mt16} ${styles} ${stylesMd.flexCenteritems}`}
         >
@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
             </div>
             <div>
-              <div className={`${styles.px4} ${styles.flexCenteritems}`}>
+              <div className={`${styles.mx4} ${styles.flexCenteritems} ${styles.w1112} ${styles.wfull}`}>
                 <label
                   htmlFor="area"
                   className={`${styles.pb4} ${styles.inlineBlock} ${styles.inlineBlock}`}
@@ -52,7 +52,7 @@ const Contact = () => {
                   id="area"
                   cols="30"
                   rows="10"
-                  className={`${styles.bgArea} ${styles.rounded} ${styles.outlineNone} ${styles.inlineBlock} ${styles.p4}`}
+                  className={`${styles.bgArea} ${styles.rounded} ${styles.outlineNone} ${styles.wfull} ${styles.inlineBlock} ${styles.p4}`}
                   placeholder="votre message"
                 ></textarea>
               </div>
@@ -64,7 +64,7 @@ const Contact = () => {
             </div>
           </div>
         </form>
-      </div>
+      </>
     </section>
   );
 };

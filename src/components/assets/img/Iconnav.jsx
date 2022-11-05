@@ -17,6 +17,7 @@ const Iconav = ({ onClick }) => {
       height="60"
       preserveAspectRatio="xMidYMid meet"
       version="1.0"
+      alt="icone"
       className={`${style.absolute} ${style.right} ${style.top} ${stylesLg.hidden}`}
       onClick={onClick}
     >
