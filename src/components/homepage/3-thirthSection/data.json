@@ -9,13 +9,13 @@
     {
       "_id": 1,
       "image": "/data/imgCreation/Kyoto.jpg",
-      "link": "#",
+      "link": "https://kyoto-guide.netlify.app/",
       "title": "Guide Kyoto"
     },
     {
       "_id": 2,
       "image": "/data/imgCreation/agencEclair.png",
-      "link": "#",
+      "link": "https://agence-eclair.netlify.app/",
       "title": "Agence web"
     },
     {
