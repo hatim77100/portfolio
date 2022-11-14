@@ -14,6 +14,7 @@ export const styles = {
   pt12: "pt-12",
   pt16: "pt-16",
   flex: "flex flex-row justify-between",
+  h60 : "h-[80px]",
   p4: "px-4",
   border: "border-b-4 border-red-500 w-[216px]",
   flexCenter: "flex justify-center w-full",

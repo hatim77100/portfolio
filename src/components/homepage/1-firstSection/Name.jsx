@@ -6,6 +6,7 @@ import { stylesMd } from "./styles";
 import { stylesLg } from "./styles";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { AnimationName } from "./TypeAnimation";
 
 const Name = () => {
   useEffect(() => {
@@ -29,10 +30,11 @@ const Name = () => {
         <div className={`${styles.flexCenter} `}>
           <hr className={`${styles.border} ${stylesMd.width}`}></hr>
         </div>
-        <div className={`${styles.flexCenter} ${styles.pt6}`}>
-          <h1 className={`${styles.h1}`}>
+        <div className={`${styles.flexCenter} ${styles.pt6} ${styles.h60}`}>
+          {/* <h1 className={`${styles.h1}`}>
             développeur web créatif React / Node
-          </h1>
+          </h1> */}
+          <AnimationName/>
         </div>
         <div className={`${styles.pt12} ${styles.flexCenter}`}>
           <span className={styles.button}>
