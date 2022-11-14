@@ -15,6 +15,14 @@ const Contact = () => {
       <>
         <form
           className={`${styles.textWhite} ${styles.mt16} ${styles} ${stylesMd.flexCenteritems}`}
+          data-aos="flip-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="false"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
         >
           <div className={stylesLg.gridRow2}>
             <div className={stylesLg.mt12}>

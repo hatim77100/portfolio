@@ -14,7 +14,16 @@ const Prestation = () => {
           <hr className={`${styles.border} ${stylesMd.width} ${stylesLg.width}`} />
         </div>
       </div>
-      <div className={stylesMd.grid}>
+      <div className={stylesMd.grid}
+         data-aos="slide-right"
+         data-aos-offset="200"
+         data-aos-delay="50"
+         data-aos-duration="500"
+         data-aos-easing="ease-in-out"
+         data-aos-mirror="false"
+         data-aos-once="false"
+         data-aos-anchor-placement="top-center"
+      >
       {data.projects.map((project) => {
         // console.log(project);
         return (

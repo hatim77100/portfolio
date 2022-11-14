@@ -12,7 +12,16 @@ const Creations = () => {
       <div className={`${styles.flexCenter} ${styles.pt8}`}>
         <hr className={`${styles.border} ${stylesMd.width} ${stylesLg.width}`}></hr>
       </div>
-      <div className={`${stylesMd.gridCol} ${stylesLg.gridCol}`}>
+      <div className={`${stylesMd.gridCol} ${stylesLg.gridCol}`}
+          data-aos="zoom-in"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="false"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+      >
         {data.creations.map((creation) => {
           return (
             <div

@@ -15,11 +15,11 @@ export const styles = {
   pt16: "pt-16",
   flex: "flex flex-row justify-between",
   p4: "px-4",
-  border: "border-t-4 border-red-500 w-3/5",
-  flexCenter: "flex justify-center",
+  border: "border-b-4 border-red-500 w-[216px]",
+  flexCenter: "flex justify-center w-full",
   h1: "capitalize text-red-500 text-3xl font-extrabold text-center w-11/12 leading-10",
   button:
-    "text-white capitalize text-2xl bg-[#3848F1] px-4 py-2 rounded-full font-bold",
+    "inline-block cursor-pointer uppercase px-6 py-2.5 bg-purple-600 text-white font-medium text-xl leading-tight rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out",
 };
 
 export const stylesMd = {

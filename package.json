@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "babel-preset-next": "^1.4.0",
     "next": "12.3.0",
     "react": "18.2.0",
     "react-burger-menu": "^3.0.8",
     "react-devtools": "^4.26.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-type-animation": "^2.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
