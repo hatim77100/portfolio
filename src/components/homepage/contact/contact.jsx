@@ -16,7 +16,7 @@ const Contact = () => {
         <form
           className={`${styles.textWhite} ${styles.mt16} ${styles} ${stylesMd.flexCenteritems}`}
           data-aos="flip-right"
-          data-aos-offset="200"
+          data-aos-offset="20"
           data-aos-delay="50"
           data-aos-duration="500"
           data-aos-easing="ease-in-out"

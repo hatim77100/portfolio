@@ -16,7 +16,7 @@ const Prestation = () => {
       </div>
       <div className={stylesMd.grid}
          data-aos="slide-right"
-         data-aos-offset="200"
+         data-aos-offset="50"
          data-aos-delay="50"
          data-aos-duration="500"
          data-aos-easing="ease-in-out"

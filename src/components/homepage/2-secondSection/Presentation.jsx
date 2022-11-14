@@ -11,9 +11,9 @@ export const Present = () => {
       </div>
       <div className={styles.mx2}>
         <p className={styles.paragraphe} data-aos="zoom-in"
-    data-aos-offset="200"
+    data-aos-offset="50"
     data-aos-delay="50"
-    data-aos-duration="500"
+    data-aos-duration="200"
     data-aos-easing="ease-in-out"
     data-aos-mirror="false"
     data-aos-once="false"
