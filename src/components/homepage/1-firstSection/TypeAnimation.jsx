@@ -6,7 +6,7 @@ export const AnimationName = () => {
     <TypeAnimation
       sequence={[
         "Développeur Web Créatif", // Types 'One'
-        2000, // Waits 1s
+        2000, // Waits 2s
         "React", // Deletes 'One' and types 'Two'
         2000, // Waits 2s
         "Node", // Types 'Three' without deleting 'Two'

@@ -8,13 +8,24 @@ import data from "./data";
 const Creations = () => {
   return (
     <section>
-      <h2 className={styles.h2}>Mes créations</h2>
-      <div className={`${styles.flexCenter} ${styles.pt8}`}>
-        <hr className={`${styles.border} ${stylesMd.width} ${stylesLg.width}`}></hr>
-      </div>
-      <div className={`${stylesMd.gridCol} ${stylesLg.gridCol}`}
-       
+      <div
+        data-aos="zoom-in"
+        data-aos-offset="50"
+        data-aos-delay="50"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="false"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
       >
+        <h2 className={styles.h2}>Mes créations</h2>
+        <div className={`${styles.flexCenter} ${styles.pt8}`}>
+          <hr
+            className={`${styles.border} ${stylesMd.width} ${stylesLg.width}`}
+          ></hr>
+        </div>
+      </div>
+      <div className={`${stylesMd.gridCol} ${stylesLg.gridCol}`}>
         {data.creations.map((creation) => {
           return (
             <div

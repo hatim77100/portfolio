@@ -1,6 +1,8 @@
- const Button = () => {
+import { styles } from "./styles";
+
+const Button = () => {
     return (
-        <button> <a href="#creations" >projets</a></button>
+        <button className={styles.button}> <a href="#creations" >mes projets</a></button>
     )
 }
 export default Button;

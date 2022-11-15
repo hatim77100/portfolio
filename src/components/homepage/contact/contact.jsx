@@ -5,11 +5,22 @@ import { stylesLg } from "./styles";
 const Contact = () => {
   return (
     <section>
-      <h2 className={`${styles.h2} ${styles.mt16}`}>Contact</h2>
-      <div className={`${styles.flexCenter} ${styles.pt8}`}>
-        <hr
-          className={`${styles.border} ${stylesMd.width} ${stylesLg.width}`}
-        ></hr>
+      <div
+        data-aos="zoom-in"
+        data-aos-offset="50"
+        data-aos-delay="50"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="false"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
+        <h2 className={`${styles.h2} ${styles.mt16} ${styles.trackingWide}`}>Contact</h2>
+        <div className={`${styles.flexCenter} ${styles.mt4}`}>
+          <hr
+            className={`${styles.border} ${stylesMd.width} ${stylesLg.width}`}
+          ></hr>
+        </div>
       </div>
 
       <>
@@ -48,7 +59,9 @@ const Contact = () => {
               </div>
             </div>
             <div>
-              <div className={`${styles.mx4} ${styles.flexCenteritems} ${styles.w1112} ${styles.wfull}`}>
+              <div
+                className={`${styles.mx4} ${styles.flexCenteritems} ${styles.w1112} ${styles.wfull}`}
+              >
                 <label
                   htmlFor="area"
                   className={`${styles.pb4} ${styles.inlineBlock} ${styles.inlineBlock}`}

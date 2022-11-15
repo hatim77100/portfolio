@@ -8,6 +8,7 @@ import Copyright from "./copyright";
 const Footer = () => {
   return (
     <footer
+
     >
       <div className={`${styles.flex} ${styles.wFull} ${styles.py8}`}
          

@@ -7,17 +7,19 @@ export const styles = {
   pt6: "pt-6",
   pb6: "pb-6",
   pl4: "pl-4",
+  pt2: "pt-2",
   mt2: "mt-4",
   py4: "py-6",
   z0: "z-0",
   z10: "z-10",
   border2: "border-2",
-  width56: "w-5/6",
+  wFull: "w-full",
   borderAmber400: "border-amber-400",
   flex: "flex",
-  justifyCenter: "justify-center",
+  justifyCenter: "flex justify-between",
   cursor: "pointer",
   hidden: "hidden",
+  h40: "h-[76px]",
 };
 
 export const stylesLg = {
@@ -29,5 +31,7 @@ export const stylesLg = {
   mt2: "lg:mt-2",
   gridSelfCenter: "lg:grid lg:justify-self-center",
   wFull: "lg:w-full",
-  h16:"lg:h-[66px]",
+  h16: "lg:h-[66px]",
+  p0: "md:p-1",
+  
 }
