@@ -5,6 +5,7 @@ import Link from "next/link";
 import { styles } from "./styles";
 import { stylesLg } from "./styles";
 
+
 const Navbar = () => {
   const [show, setShow] = useState(false);
   const toggle = () => {
@@ -35,31 +36,32 @@ const Navbar = () => {
             <ul
               className={`${styles.uppercase} ${styles.fontSize} ${styles.fontBold} ${styles.color} ${styles.pl4}`}
             >
-              <li>
+              <li >
                 <Link href={"#"}>
-                  <a>Accueil</a>
+                  <a  className={`${styles.line}`}>Accueil</a>
                 </Link>
               </li>
-              <li className={`${styles.py4}`}>
+              <li className={`${styles.py4} `}>
                 <Link href="#contact">
-                  <a>Contact</a>
+                  <a  className={`${styles.line}`}>Contact</a>
                 </Link>
               </li>
               <li>
                 <Link href="#creations">
-                  <a>Mes créations</a>
+                  <a  className={`${styles.line}`}>Mes créations</a>
                 </Link>
               </li>
               <li className={`${styles.py4}`}>
-                <Link href="#">
-                  <a>Compétences</a>
+                <Link href="#competences">
+                  <a  className={`${styles.line}`}>Mes Compétences</a>
                 </Link>
               </li>
               <li className={`${styles.pb6}`}>
                 <a
                   href="/data/img/cv.pdf"
                   target="_blank"
-                  rel="noreferrer noopener"
+                    rel="noreferrer noopener"
+                    className={`${styles.line}`}
                 >
                   CV
                 </a>
@@ -71,30 +73,31 @@ const Navbar = () => {
             className={`${styles.uppercase} ${styles.fontSize} ${styles.fontBold} ${styles.color} ${styles.pl4} ${styles.hidden} ${stylesLg.inline} ${stylesLg.h16} ${stylesLg.flex}`}
           >
             <li>
-              <Link href={"#"}>
-                <a>Acceuil</a>
+              <Link href={"#"} >
+                <a  className={`${styles.line}`}>Acceuil</a>
               </Link>
             </li>
             <li className={`${styles.py4} ${stylesLg.py0}`}>
               <Link href="#contact">
-                <a>Contact</a>
+                <a  className={`${styles.line}`}>Contact</a>
               </Link>
             </li>
-            <li>
+            <li >
               <Link href="#creations">
-                <a>Mes créations</a>
+                <a  className={`${styles.line}`}>Mes créations</a>
               </Link>
             </li>
-            <li className={`${styles.py4} ${stylesLg.py0}`}>
-              <Link href="#">
-                <a>Compétences</a>
+            <li className={`${styles.py4} ${stylesLg.py0} `}>
+              <Link href="#competences">
+                <a  className={`${styles.line}`}>Mes Compétences</a>
               </Link>
             </li>
             <li className={`${styles.pb6} ${stylesLg.py0}`}>
               <a
-                href="/data/img/cv.pdf"
-                target="_blank"
-                rel="noreferrer noopener"
+                    href="/data/img/cv.pdf"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className={`${styles.line}`}
               >
                 CV
               </a>

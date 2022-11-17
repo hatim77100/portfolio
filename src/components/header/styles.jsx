@@ -20,6 +20,9 @@ export const styles = {
   cursor: "pointer",
   hidden: "hidden",
   h40: "h-[76px]",
+  // hoverBlue: "hover:bg-cyan-800  ",
+  line: " after:content-[''] after:block after:w-[0px] after:h-[2px] after:rounded-[2px] after:bg-[#EF43CF] after:transtion after:transition-[width] after:duration-200  after:ease-out hover:after:w-full",
+  
 };
 
 export const stylesLg = {

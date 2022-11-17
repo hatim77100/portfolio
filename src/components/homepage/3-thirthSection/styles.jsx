@@ -16,6 +16,6 @@ export const stylesMd = {
   gridCol:"md:grid md:grid-cols-2"
 }
 export const stylesLg = {
-  // width: "lg:w-[230px]",
+ 
   gridCol:"lg:grid lg:grid-cols-4"
 }

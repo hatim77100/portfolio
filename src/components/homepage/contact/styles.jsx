@@ -2,7 +2,7 @@ export const styles = {
     h2: "uppercase text-white text-3xl font-bold text-center",
     flexCenter: "flex justify-center",
     flexCenteritems: "flex flex-col justify-center items-center",
-    border: "border-t-4 border-[#DCDDE1] w-[144px]",
+    border: "border-t-4 border-[#EF43CF] w-[144px]",
     mt16: "mt-16",
     mtN2: "-mt-2",
     ml4: "ml-4",

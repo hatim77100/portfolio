@@ -20,7 +20,7 @@ export const styles = {
   flexCenter: "flex justify-center w-full",
   h1: "capitalize text-red-500 text-3xl font-extrabold text-center w-11/12 leading-10",
   button:
-    "inline-block cursor-pointer uppercase px-6 py-2.5 bg-purple-600 text-white font-medium text-xl leading-tight rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out",
+    "inline-block cursor-pointer uppercase px-6 py-2.5 bg-purple-600 text-white font-medium text-xl leading-tight rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg  ease-in-out duration-300",
 };
 
 export const stylesMd = {

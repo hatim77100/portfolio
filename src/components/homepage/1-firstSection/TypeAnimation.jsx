@@ -6,14 +6,16 @@ export const AnimationName = () => {
     <TypeAnimation
       sequence={[
         "Développeur Web Créatif", // Types 'One'
-        2000, // Waits 2s
+        600, // Waits 2s
         "React", // Deletes 'One' and types 'Two'
-        2000, // Waits 2s
+        600, // Waits 2s
         "Node", // Types 'Three' without deleting 'Two'
-        2000,
+        600,
+        "Full Js",
+        600,
       ]}
       className={styles.h1}
-      speed={20}
+      speed={40}
       wrapper="div"
       cursor={false}
       repeat={Infinity}
