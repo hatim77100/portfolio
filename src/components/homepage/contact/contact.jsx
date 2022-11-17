@@ -44,7 +44,7 @@ const Contact = () => {
                   name="name"
                   id="name"
                   className={`${styles.input} ${styles.inlineBlock} ${styles.bgBlack} ${styles.ml4} ${styles.textSm}`}
-                  placeholder="nom et prenom"
+                  placeholder="Nom et Prenom"
                 />
               </div>
               <div className={`${styles.my8} ${styles.grid} ${styles.ml4}`}>
@@ -54,7 +54,7 @@ const Contact = () => {
                   name="mail"
                   id="mail"
                   className={`${styles.input} ${styles.bgBlack} ${styles.inlineBlock} ${styles.ml4} ${styles.textSm}`}
-                  placeholder="adresse mail"
+                  placeholder="Adresse mail"
                 />
               </div>
             </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                   cols="30"
                   rows="10"
                   className={`${styles.bgArea} ${styles.rounded} ${styles.outlineNone} ${styles.wfull} ${styles.inlineBlock} ${styles.p4}`}
-                  placeholder="votre message"
+                  placeholder="Votre message"
                 ></textarea>
               </div>
               <div className={styles.flexCenteritems}>
