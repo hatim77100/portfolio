@@ -5,7 +5,7 @@ export const styles = {
     "w-0 h-0  border-l-[40px] border-l-transparent border-b-[40px] border-b-[#6649A4] border-r-[40px] border-r-transparent rotate-12",
   tr1: "w-0 h-0 border-t-[40px] border-t-[#8D7DAF] border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent",
   tr2: "w-0 h-0 border-b-[40px] border-b-[#8D7DAF] border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent",
-  h2: "text-white text-3xl font-bold text-center",
+  h2: "text-white text-3xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500",
   wFull: "w-full",
   mtN16: "-mt-16",
   pt6: "pt-6",
