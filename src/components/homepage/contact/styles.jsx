@@ -17,7 +17,7 @@ export const styles = {
     wfull:"w-full",
     textWhite: "text-white text-xl",
     textSm:"text-sm",
-    input: "outline outline-white py-2 rounded-md px-2",
+    input: "outline outline-[#341367] py-2 rounded-md px-2",
     rounded:"rounded-md",
     grid: "grid grid-cols-[50px_200px]",
     outlineNone: "outline-none",
@@ -25,7 +25,7 @@ export const styles = {
     w1112:"w-11/12",
     bgBlack: "bg-black",
     bgArea: "bg-[#341367]",
-    button: "bg-[#8D7DAF] px-8 rounded-full py-2 text-2xl mt-4 mb-16 pointer",
+    button: "bg-[#341367] px-8 rounded-full py-2 text-2xl mt-4 mb-16 pointer hover:bg-[#8463f6] hover:text-[#341367]",
     trackingWide: "tracking-wider",
     
 }

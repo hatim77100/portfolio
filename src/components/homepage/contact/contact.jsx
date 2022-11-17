@@ -64,7 +64,7 @@ const Contact = () => {
               >
                 <label
                   htmlFor="area"
-                  className={`${styles.pb4} ${styles.inlineBlock} ${styles.inlineBlock}`}
+                  className={`${styles.pb4} ${styles.inlineBlock}`}
                 >
                   Message
                 </label>
@@ -78,7 +78,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className={styles.flexCenteritems}>
-                <button type="submit" className={styles.button}>
+                <button type="submit" className={`${styles.button}`}>
                   Envoyer
                 </button>
               </div>
