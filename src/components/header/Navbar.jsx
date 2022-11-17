@@ -27,21 +27,38 @@ const Navbar = () => {
         {show === true ? (
           <nav >
             <div
-              className={`${styles.flex} ${styles.justifyCenter} ${styles.pb6} `}
+                className={`${styles.flex} ${styles.justifyCenter} ${styles.pb6} `}
+                data-aos="zoom-in"
+                data-aos-offset="50"
+                data-aos-delay="50"
+                data-aos-duration="400"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="false"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+               
             >
               <hr
                 className={`${styles.border2} ${styles.wFull} ${styles.borderAmber400} ${styles.mt2}`}
               />
             </div>
             <ul
-              className={`${styles.uppercase} ${styles.fontSize} ${styles.fontBold} ${styles.color} ${styles.pl4}`}
+                className={`${styles.uppercase} ${styles.fontSize} ${styles.fontBold} ${styles.color} ${styles.pl4}`}
+                data-aos="zoom-in"
+                data-aos-offset="50"
+                data-aos-delay="50"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="false"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
             >
               <li >
                 <Link href={"#"}>
                   <a  className={`${styles.line}`}>Accueil</a>
                 </Link>
               </li>
-              <li className={`${styles.py4} `}>
+              <li className={`${styles.py4}`}>
                 <Link href="#contact">
                   <a  className={`${styles.line}`}>Contact</a>
                 </Link>
