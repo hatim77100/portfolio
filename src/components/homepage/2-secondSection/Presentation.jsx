@@ -22,9 +22,9 @@ export const Present = () => {
           ></hr>
         </div>
       </div>
-      <div className={styles.mx2} >
+      <div className={`${styles.mx2} ${stylesMd.flexCenter}`}>
         <p
-          className={styles.paragraphe}
+          className={`${styles.paragraphe} ${styles} ${stylesMd.w50}`}
           data-aos="zoom-in"
           data-aos-offset="50"
           data-aos-delay="50"
