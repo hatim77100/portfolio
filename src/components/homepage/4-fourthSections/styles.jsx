@@ -20,7 +20,9 @@ export const styles = {
     uppercase: "uppercase",
     mtN4: "-mt-4",
     capitalize: "capitalize",
-    leading8:"leading-8",
+    leading8: "leading-8",
+  listInside: "list-inside",
+    textCenter: "text-center",
   };
   
 export const stylesMd = {
@@ -29,6 +31,8 @@ export const stylesMd = {
   px2: "md:px-2",
   title: "md:text-xl"
 }
+
 export const stylesLg = {
   width: "lg:w-[260px]",
 }
+

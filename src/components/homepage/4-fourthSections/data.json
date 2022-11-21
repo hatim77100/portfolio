@@ -4,28 +4,28 @@
       "_id": 0,
       "image": "/data/img/projetWeb.png",
       "title": "projets web",
-      "p1": "✔️ Site e-commerce",
-      "p2": "✔️ Web application",
-      "p3": "✔️ Site vitrine",
-      "p4": "✔️ Landing page"
+      "p1": " Site e-commerce",
+      "p2": " Web application",
+      "p3": " Site vitrine",
+      "p4": " Landing page"
     },
     {
       "_id": 1,
       "image": "/data/img/projetWeb1.png",
       "title": "developpement front-end",
-      "p1": "✔️ Intégrer des maquettes web",
-      "p2": "✔️ Des pages web performantes",
-      "p3": "✔️ Site multi-support",
-      "p4": "✔️ Code propre"
+      "p1": " Intégrer des maquettes web",
+      "p2": " Des pages web performantes",
+      "p3": " Site multi-support",
+      "p4": " Code propre"
     },
     {
       "_id": 2,
       "image": "/data/img/responsive.png",
       "title": "site multi-supports",
-      "p1": "✔️ Responsive design",
-      "p2": "✔️ Il s'adapte aux ordinateurs",
-      "p3": "✔️ Il s'adapte aux tablettes",
-      "p4": "✔️ Il s'adapte aux smartphones"
+      "p1": " Responsive design",
+      "p2": " Il s'adapte aux ordinateurs",
+      "p3": " Il s'adapte aux tablettes",
+      "p4": " Il s'adapte aux smartphones"
     }
   ]
 }

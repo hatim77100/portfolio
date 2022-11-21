@@ -8,7 +8,8 @@ const styles = {
     text2Xl: "text-xl text-white ",
     m0: "m-0",
     py4: "py-4",
-    mbN4:"-mb-4"
+    mbN4: "-mb-4",
+    white: "bg-white"
 }
 
 export default styles;

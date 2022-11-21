@@ -43,7 +43,7 @@ const Navbar = () => {
               />
             </div>
             <ul
-                className={`${styles.uppercase} ${styles.fontSize} ${styles.fontBold} ${styles.color} ${styles.pl4}`}
+                className={`${styles.uppercase} ${styles.fontSize} ${styles.fontBold} ${styles.color} ${styles.pl8}`}
                 data-aos="zoom-in"
                 data-aos-offset="50"
                 data-aos-delay="50"
