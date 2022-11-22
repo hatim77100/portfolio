@@ -23,7 +23,6 @@ const Navbar = () => {
           />
         </div>
         <div>
-        
         {show === true ? (
           <nav >
             <div
@@ -75,7 +74,7 @@ const Navbar = () => {
               </li>
               <li className={`${styles.pb6}`}>
                 <a
-                  href="/data/img/cv.pdf"
+                  href="/data/docs/cv.pdf"
                   target="_blank"
                     rel="noreferrer noopener"
                     className={`${styles.line}`}
@@ -91,7 +90,7 @@ const Navbar = () => {
           >
             <li>
               <Link href={"#"} >
-                <a  className={`${styles.line}`}>Acceuil</a>
+                <a  className={`${styles.line}`}>Accueil</a>
               </Link>
             </li>
             <li className={`${styles.py4} ${stylesLg.py0}`}>
@@ -111,7 +110,7 @@ const Navbar = () => {
             </li>
             <li className={`${styles.pb6} ${stylesLg.py0}`}>
               <a
-                    href="/data/img/cv.pdf"
+                    href="/data/docs/cv.pdf"
                     target="_blank"
                     rel="noreferrer noopener"
                     className={`${styles.line}`}

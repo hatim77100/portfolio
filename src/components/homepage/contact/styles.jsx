@@ -10,6 +10,7 @@ export const styles = {
     pt12: "pt-12",
     px4: "px-4",
     mx4: "mx-4",
+    mx8:"mx-8",
     mt4:"mt-4",
     px2:"px-2",
     my8: "my-12",

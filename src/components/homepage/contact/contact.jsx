@@ -58,7 +58,7 @@ const Contact = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className={styles.mx4}>
               <div
                 className={`${styles.mx4} ${styles.flexCenteritems} ${styles.w1112} ${styles.wfull}`}
               >
