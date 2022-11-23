@@ -28,6 +28,9 @@ export const styles = {
     bgArea: "bg-[#341367]",
     button: "bg-[#341367] px-8 rounded-full py-2 text-2xl mt-4 mb-16 pointer hover:bg-[#8463f6] hover:text-[#341367]",
     trackingWide: "tracking-wider",
+    fontAlkalami: "font-Alkalami",
+    fontSmokum: "font-smokum",
+    fontCourgette: "font-courgette",
     
 }
 

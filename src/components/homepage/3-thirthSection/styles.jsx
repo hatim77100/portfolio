@@ -1,5 +1,5 @@
 export const styles = {
-  h2: "uppercase text-white text-3xl font-bold text-center mt-20",
+  h2: "uppercase text-white text-3xl font-bold text-center mt-20 tracking-wider",
   flexCenterCol: "flex flex-col justify-center items-center",
   flexCenter: "flex justify-center",
   border: "border-t-4 border-[#EF43CF] w-[230px] mt-8",
@@ -9,6 +9,9 @@ export const styles = {
   shadow: "drop-shadow-[0_20px_20px_rgba(141,125,175,.5)]",
   cursor: "pointer",
   rounded: "rounded",
+  fontAlkalami: "font-Alkalami",
+  fontSmokum: "font-smokum",
+  fontCourgette: "font-courgette",
 };
 
 export const stylesMd = {

@@ -20,7 +20,7 @@ const Projets = ({ image, title, p1, p2, p3, p4 }) => {
           {title}
         </h3>
         <ul
-          className={`${styles.textWhite} ${styles.italic} ${styles.m0} ${styles.p4}  ${styles.leading8} ${styles.textCenter}`}
+          className={`${styles.textWhite} ${styles.italic} ${styles.m0} ${styles.p4}  ${styles.leading8} ${styles.textCenter} ${styles.fontJosefin}`}
         
         >
           <li>{p1}</li>

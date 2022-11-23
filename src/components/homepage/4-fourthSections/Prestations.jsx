@@ -19,7 +19,7 @@ const Prestation = () => {
         data-aos-once="false"
         data-aos-anchor-placement="top-center"
       >
-        <h2 className={`${styles.h2}`}>Mes prestations</h2>
+        <h2 className={`${styles.h2} ${styles.fontAlkalami}`}>Mes prestations</h2>
         <div className={`${styles.flexCenter}`}>
           <hr
             className={`${styles.border} ${stylesMd.width} ${stylesLg.width}`}

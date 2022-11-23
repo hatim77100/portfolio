@@ -15,7 +15,7 @@ const Contact = () => {
         data-aos-once="false"
         data-aos-anchor-placement="top-center"
       >
-        <h2 className={`${styles.h2} ${styles.mt16} ${styles.trackingWide}`}>Contact</h2>
+        <h2 className={`${styles.h2} ${styles.mt16} ${styles.trackingWide} ${styles.fontAlkalami}`}>Contact</h2>
         <div className={`${styles.flexCenter} ${styles.mt4}`}>
           <hr
             className={`${styles.border} ${stylesMd.width} ${stylesLg.width}`}
@@ -44,7 +44,7 @@ const Contact = () => {
                   name="name"
                   id="name"
                   className={`${styles.input} ${styles.inlineBlock} ${styles.bgBlack} ${styles.ml4} ${styles.textSm}`}
-                  placeholder="Nom et Prenom"
+                  placeholder="Votre nom complet"
                 />
               </div>
               <div className={`${styles.my8} ${styles.grid} ${styles.ml4}`}>
@@ -54,7 +54,7 @@ const Contact = () => {
                   name="mail"
                   id="mail"
                   className={`${styles.input} ${styles.bgBlack} ${styles.inlineBlock} ${styles.ml4} ${styles.textSm}`}
-                  placeholder="Adresse mail"
+                  placeholder="Votre adresse mail"
                 />
               </div>
             </div>

@@ -29,7 +29,7 @@ const Name = () => {
           <div className={styles.rond}></div>
           <div className={styles.triangle}></div>
         </div>
-        <h2 className={`${styles.h2} ${styles.pt16}`}>Hatim NAJOUA</h2>
+        <h2 className={`${styles.h2} ${styles.pt16} ${styles.fontCourgette}`}>Hatim NAJOUA</h2>
         <div className={`${styles.flexCenter} `}>
           <hr className={`${styles.border} ${stylesMd.width}`}></hr>
         </div>

@@ -16,7 +16,7 @@ const Competence = () => {
   return (
     <>
       <div
-        className={styles.h2}
+        className={`${styles.h2} ${styles.fontAlkalami}`}
         data-aos="zoom-in"
         data-aos-offset="50"
         data-aos-delay="50"

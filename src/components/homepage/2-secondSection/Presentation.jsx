@@ -15,7 +15,7 @@ export const Present = () => {
         data-aos-once="false"
         data-aos-anchor-placement="top-center"
       >
-        <h2 className={`${styles.h2}`}>présentation</h2>
+        <h2 className={`${styles.h2} ${styles.fontAlkalami}`}>présentation</h2>
         <div className={`${styles.flexCenter} ${styles.pt8} `}>
           <hr
             className={`${styles.border} ${stylesMd.width} ${stylesLg.width}`}
@@ -24,7 +24,7 @@ export const Present = () => {
       </div>
       <div className={`${styles.mx2} ${stylesMd.flexCenter}`}>
         <p
-          className={`${styles.paragraphe} ${styles} ${stylesMd.w50}`}
+          className={`${styles.divParagraphe} ${styles} ${stylesMd.w50} ${styles.fontJosefin}`}
           data-aos="zoom-in"
           data-aos-offset="50"
           data-aos-delay="50"

@@ -5,7 +5,6 @@ import Link from "next/link";
 import { styles } from "./styles";
 import { stylesLg } from "./styles";
 
-
 const Navbar = () => {
   const [show, setShow] = useState(false);
   const toggle = () => {
@@ -23,9 +22,9 @@ const Navbar = () => {
           />
         </div>
         <div>
-        {show === true ? (
-          <nav >
-            <div
+          {show === true ? (
+            <nav>
+              <div
                 className={`${styles.flex} ${styles.justifyCenter} ${styles.pb6} `}
                 data-aos="zoom-in"
                 data-aos-offset="50"
@@ -35,13 +34,12 @@ const Navbar = () => {
                 data-aos-mirror="false"
                 data-aos-once="false"
                 data-aos-anchor-placement="top-center"
-               
-            >
-              <hr
-                className={`${styles.border2} ${styles.wFull} ${styles.borderAmber400} ${styles.mt2}`}
-              />
-            </div>
-            <ul
+              >
+                <hr
+                  className={`${styles.border2} ${styles.wFull} ${styles.borderAmber400} ${styles.mt2}`}
+                />
+              </div>
+              <ul
                 className={`${styles.uppercase} ${styles.fontSize} ${styles.fontBold} ${styles.color} ${styles.pl8}`}
                 data-aos="zoom-in"
                 data-aos-offset="50"
@@ -51,76 +49,75 @@ const Navbar = () => {
                 data-aos-mirror="false"
                 data-aos-once="false"
                 data-aos-anchor-placement="top-center"
+              >
+                <li>
+                  <Link href={"#"}>
+                    <a className={`${styles.line}`}>Accueil</a>
+                  </Link>
+                </li>
+                <li className={`${styles.py4}`}>
+                  <Link href="#contact">
+                    <a className={`${styles.line}`}>Contact</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#creations">
+                    <a className={`${styles.line}`}>Mes créations</a>
+                  </Link>
+                </li>
+                <li className={`${styles.py4}`}>
+                  <Link href="#competences">
+                    <a className={`${styles.line}`}>Mes Compétences</a>
+                  </Link>
+                </li>
+                <li className={`${styles.pb6}`}>
+                  <a
+                    href="/data/docs/cv.pdf"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className={`${styles.line}`}
+                  >
+                    CV
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          ) : (
+            <ul
+              className={`${styles.uppercase} ${styles.fontSize} ${styles.fontBold} ${styles.color} ${styles.pl4} ${styles.hidden} ${stylesLg.inline} ${stylesLg.h16} ${stylesLg.flex}`}
             >
-              <li >
+              <li>
                 <Link href={"#"}>
-                  <a  className={`${styles.line}`}>Accueil</a>
+                  <a className={`${styles.line}`}>Accueil</a>
                 </Link>
               </li>
-              <li className={`${styles.py4}`}>
+              <li className={`${styles.py4} ${stylesLg.py0}`}>
                 <Link href="#contact">
-                  <a  className={`${styles.line}`}>Contact</a>
+                  <a className={`${styles.line}`}>Contact</a>
                 </Link>
               </li>
               <li>
                 <Link href="#creations">
-                  <a  className={`${styles.line}`}>Mes créations</a>
+                  <a className={`${styles.line}`}>Mes créations</a>
                 </Link>
               </li>
-              <li className={`${styles.py4}`}>
+              <li className={`${styles.py4} ${stylesLg.py0} `}>
                 <Link href="#competences">
-                  <a  className={`${styles.line}`}>Mes Compétences</a>
+                  <a className={`${styles.line}`}>Mes Compétences</a>
                 </Link>
               </li>
-              <li className={`${styles.pb6}`}>
+              <li className={`${styles.pb6} ${stylesLg.py0}`}>
                 <a
                   href="/data/docs/cv.pdf"
                   target="_blank"
-                    rel="noreferrer noopener"
-                    className={`${styles.line}`}
+                  rel="noreferrer noopener"
+                  className={`${styles.line}`}
                 >
                   CV
                 </a>
               </li>
             </ul>
-          </nav>
-        ) : (
-          <ul
-            className={`${styles.uppercase} ${styles.fontSize} ${styles.fontBold} ${styles.color} ${styles.pl4} ${styles.hidden} ${stylesLg.inline} ${stylesLg.h16} ${stylesLg.flex}`}
-          >
-            <li>
-              <Link href={"#"} >
-                <a  className={`${styles.line}`}>Accueil</a>
-              </Link>
-            </li>
-            <li className={`${styles.py4} ${stylesLg.py0}`}>
-              <Link href="#contact">
-                <a  className={`${styles.line}`}>Contact</a>
-              </Link>
-            </li>
-            <li >
-              <Link href="#creations">
-                <a  className={`${styles.line}`}>Mes créations</a>
-              </Link>
-            </li>
-            <li className={`${styles.py4} ${stylesLg.py0} `}>
-              <Link href="#competences">
-                <a  className={`${styles.line}`}>Mes Compétences</a>
-              </Link>
-            </li>
-            <li className={`${styles.pb6} ${stylesLg.py0}`}>
-              <a
-                    href="/data/docs/cv.pdf"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className={`${styles.line}`}
-              >
-                CV
-              </a>
-            </li>
-          </ul>
-        )}
-        ;
+          )}
         </div>
       </div>
     </header>
