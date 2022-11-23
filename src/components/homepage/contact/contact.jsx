@@ -2,6 +2,7 @@ import { styles } from "./styles";
 import { stylesMd } from "./styles";
 import { stylesLg } from "./styles";
 
+
 const Contact = () => {
   return (
     <section>
@@ -85,6 +86,7 @@ const Contact = () => {
             </div>
           </div>
         </form>
+        
       </>
     </section>
   );

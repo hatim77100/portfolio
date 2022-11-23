@@ -7,6 +7,7 @@ export const styles = {
   pt6: "pt-6",
   pb6: "pb-6",
   pl4: "pl-4",
+  p4:"p-2",
   pl8: "pl-8",
   pt2: "pt-2",
   mt2: "mt-4",

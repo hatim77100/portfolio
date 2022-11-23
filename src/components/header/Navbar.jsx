@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <header>
       <div className={`${stylesLg.gridCol2} ${stylesLg.h16}`}>
-        <div className={`${styles.justifyCenter} ${styles.pt2} ${stylesLg.p0}`}>
+        <div className={`${styles.justifyCenter} ${styles.p4} ${stylesLg.p0}`}>
           <Logo className={`${styles.z0} ${stylesLg.h60}`} />
           <Iconav
             className={`${styles.z10} ${styles.cursor} `}
