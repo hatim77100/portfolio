@@ -52,25 +52,25 @@ const Navbar = () => {
               >
                 <li>
                   <Link href={"#"}>
-                    <a className={`${styles.line}`}>Accueil</a>
+                    <a className={`${styles.line} ${styles.inlineBlock}`}>Accueil</a>
                   </Link>
                 </li>
                 <li className={`${styles.py4}`}>
                   <Link href="#contact">
-                    <a className={`${styles.line}`}>Contact</a>
+                    <a className={`${styles.line} ${styles.inlineBlock}`}>Contact</a>
                   </Link>
                 </li>
-                <li>
+                <li >
                   <Link href="#creations">
-                    <a className={`${styles.line}`}>Mes créations</a>
+                    <a className={`${styles.line} ${styles.inlineBlock}`}>Mes créations</a>
                   </Link>
                 </li>
                 <li className={`${styles.py4}`}>
                   <Link href="#competences">
-                    <a className={`${styles.line}`}>Mes Compétences</a>
+                    <a className={`${styles.line} ${styles.inlineBlock}`}>Mes Compétences</a>
                   </Link>
                 </li>
-                <li className={`${styles.pb6}`}>
+                <li className={`${styles.pb6} ${styles.inlineBlock}`}>
                   <a
                     href="/data/docs/cv.pdf"
                     target="_blank"
