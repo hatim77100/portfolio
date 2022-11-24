@@ -46,7 +46,7 @@ export const Present = () => {
           <p className={styles.mt4}></p>A l'écoute du marché, je suis en recherche
           de challenges et de nouvelles opportunités. Que vous soyez une agence
           web, un indépendant ou un particulier, je serai content de répondre à
-          vos besoins :)
+          vos besoins.
         </div>
       </div>
     </>
