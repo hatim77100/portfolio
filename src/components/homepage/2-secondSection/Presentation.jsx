@@ -35,12 +35,12 @@ export const Present = () => {
           data-aos-anchor-placement="top-center"
         >
           Actuellement en formation de développeur web et web mobile chez
-          l&apos;Access Code School, je me forme afin de faire carrière en tant
+          l'Access Code School, je me forme afin de faire carrière en tant
           que développeur web Front-End en full JavaScript !
           <br />
           <p className={styles.mt4}></p>
           Passionné depuis toujours par les nouvelles technologies et
-          l&apos;univers du développement, je passe mon temps à coder des
+          l'univers du développement, je passe mon temps à coder des
           projets divers et variés.
           <br />
           <p className={styles.mt4}></p>A l'écoute du marché, je suis en recherche
