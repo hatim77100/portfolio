@@ -12,6 +12,7 @@ export const styles = {
   fontAlkalami: "font-Alkalami",
   fontSmokum: "font-smokum",
   fontCourgette: "font-courgette",
+  roundedmd:"rounded-md"
 };
 
 export const stylesMd = {

@@ -33,7 +33,7 @@ const Creations = () => {
               className={`${styles.mt12} ${styles.p4} ${styles.flexCenterCol} ${styles.shadow} ${styles.cursor} `}
             >
               <Creation
-                image={<Image src={creation.image} width={288} height={367} />}
+                image={<Image src={creation.image} width={288} height={367} className={styles.roundedmd} />}
                 link={creation.link}
                 title={creation.title}
               />

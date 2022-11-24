@@ -20,7 +20,7 @@ export const styles = {
     textSm:"text-sm",
     input: "outline outline-[#341367] py-2 rounded-md px-2",
     rounded:"rounded-md",
-    grid: "grid grid-cols-[125px_160px]",
+    grid: "grid grid-cols-[125px_170px]",
     outlineNone: "outline-none",
     inlineBlock: "inline-block",
     w1112:"w-11/12",
