@@ -14,7 +14,7 @@ export const styles = {
   fontJosefin: "font-josefin",
   fontJosefin500: "font-josefin500",
   trackingWidest:"",
-  fontAlkalami: "font-Alkalami text-white tracking-widest",
+  fontAlkalami: "font-Alkalami text-white tracking-widest ",
   
 };
 export const stylesMd = {
