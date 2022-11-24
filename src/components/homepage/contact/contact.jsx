@@ -26,7 +26,7 @@ const Contact = () => {
 
       <>
         <form
-          className={`${styles.textWhite} ${styles.mt16} ${styles} ${stylesMd.flexCenteritems}`}
+          className={`${styles.textWhite} ${styles.mt16} ${styles} ${stylesMd.flexCenteritems} font-courgette`}
           data-aos="flip-right"
           data-aos-offset="20"
           data-aos-delay="50"
@@ -39,7 +39,7 @@ const Contact = () => {
           <div className={stylesLg.gridRow2}>
             <div className={stylesLg.mt12}>
               <div className={`${styles.grid} ${styles.ml4}`}>
-                <label htmlFor="name">Nom</label>
+                <label htmlFor="name">Votre nom :</label>
                 <input
                   type="text"
                   name="name"
@@ -49,7 +49,7 @@ const Contact = () => {
                 />
               </div>
               <div className={`${styles.my8} ${styles.grid} ${styles.ml4}`}>
-                <label htmlFor="mail">Mail</label>
+                <label htmlFor="mail">Votre e-mail :</label>
                 <input
                   type="text"
                   name="mail"
@@ -67,7 +67,7 @@ const Contact = () => {
                   htmlFor="area"
                   className={`${styles.pb4} ${styles.inlineBlock}`}
                 >
-                  Message
+                  Votre message :
                 </label>
                 <textarea
                   name="message"

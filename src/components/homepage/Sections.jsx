@@ -14,7 +14,9 @@ const Sections = () => {
   return (
     <div className={`${style.bg} ${style.m0}`}>
       <Name />
-      <Present />
+      <div id="presentation">
+        <Present />
+      </div>
       <div id="competences">
         <Competence />
       </div>

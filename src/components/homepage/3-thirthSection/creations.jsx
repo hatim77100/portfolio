@@ -18,14 +18,14 @@ const Creations = () => {
         data-aos-once="false"
         data-aos-anchor-placement="top-center"
       >
-        <h2 className={`${styles.h2} ${styles.fontAlkalami}`}>Mes créations</h2>
+        <h2 className={`${styles.h2} ${styles.fontAlkalami}`}>Créations</h2>
         <div className={`${styles.flexCenter} ${styles.pt8}`}>
           <hr
             className={`${styles.border} ${stylesMd.width} ${stylesLg.width}`}
           ></hr>
         </div>
       </div>
-      <div className={`${stylesMd.gridCol} ${stylesLg.gridCol}`}>
+      <div className={`${stylesMd.gridCol} ${stylesLg.gridCol} ${styles.fontCourgette}`}>
         {data.creations.map((creation) => {
           return (
             <div

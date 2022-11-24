@@ -16,11 +16,11 @@ const Projets = ({ image, title, p1, p2, p3, p4 }) => {
         data-aos-anchor-placement="top-center"
       >
         <div className={styles.p4}>{image}</div>
-        <h3 className={`${styles.title} ${styles.mtN4} ${styles.capitalize} ${stylesMd.px2} ${stylesMd.title}`}>
+        <h3 className={`${styles.title} ${styles.mtN4} ${stylesMd.px2} ${stylesMd.title} ${styles.fontAlkalami} ${styles.uppercase} ${styles.trackingWidest}`}>
           {title}
         </h3>
         <ul
-          className={`${styles.textWhite} ${styles.italic} ${styles.m0} ${styles.p4}  ${styles.leading8} ${styles.textCenter} ${styles.fontJosefin}`}
+          className={`${styles.textWhite} ${styles.italic} ${styles.m0} ${styles.p4}  ${styles.leading8} ${styles.textCenter} ${styles.fontCourgette}`}
         
         >
           <li>{p1}</li>

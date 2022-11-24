@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <header>
+    <header className={styles.fontCourgette}>
       <div className={`${stylesLg.gridCol2} ${stylesLg.h16}`}>
         <div className={`${styles.justifyCenter} ${styles.p4} ${stylesLg.p0}`}>
           <Logo className={`${styles.z0} ${stylesLg.h60}`} />
@@ -52,30 +52,37 @@ const Navbar = () => {
               >
                 <li>
                   <Link href={"#"}>
-                    <a className={`${styles.line} ${styles.inlineBlock}`}>Accueil</a>
+                    <a className={`${styles.line} ${styles.inlineBlock}`}>
+                      Accueil
+                    </a>
                   </Link>
                 </li>
                 <li className={`${styles.py4}`}>
                   <Link href="#contact">
-                    <a className={`${styles.line} ${styles.inlineBlock}`}>Contact</a>
+                    <a className={`${styles.line} ${styles.inlineBlock}`}>
+                      Contact
+                    </a>
                   </Link>
                 </li>
-                <li >
+                <li>
                   <Link href="#creations">
-                    <a className={`${styles.line} ${styles.inlineBlock}`}>Mes créations</a>
+                    <a className={`${styles.line} ${styles.inlineBlock}`}>
+                      Créations
+                    </a>
                   </Link>
                 </li>
                 <li className={`${styles.py4}`}>
                   <Link href="#competences">
-                    <a className={`${styles.line} ${styles.inlineBlock}`}>Mes Compétences</a>
+                    <a className={`${styles.line} ${styles.inlineBlock}`}>
+                      Compétences
+                    </a>
                   </Link>
                 </li>
-                <li className={`${styles.pb6} ${styles.inlineBlock}`}>
+                <li className={`${styles.mb6} ${styles.inlineBlock} ${styles.cvMobile}`}>
                   <a
                     href="/data/docs/cv.pdf"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className={`${styles.line}`}
                   >
                     CV
                   </a>
@@ -91,27 +98,37 @@ const Navbar = () => {
                   <a className={`${styles.line} `}>Accueil</a>
                 </Link>
               </li>
-              <li className={`${styles.py4} ${stylesLg.py0} ${stylesLg.hoverDesktop}`}>
-                <Link href="#contact">
-                  <a className={`${styles.line}`}>Contact</a>
+              <li className={`${stylesLg.hoverDesktop}`}>
+                <Link href="#presentation">
+                  <a className={`${styles.line} `}>À propos</a>
+                </Link>
+              </li>
+              <li
+                className={`${styles.py4} ${stylesLg.py0} ${stylesLg.hoverDesktop}`}
+              >
+                <Link href="#competences">
+                  <a className={`${styles.line}`}>Compétences</a>
                 </Link>
               </li>
               <li className={`${stylesLg.hoverDesktop}`}>
                 <Link href="#creations">
-                  <a className={`${styles.line}`}>Mes créations</a>
+                  <a className={`${styles.line}`}>Créations</a>
                 </Link>
               </li>
-              <li className={`${styles.py4} ${stylesLg.py0} ${stylesLg.hoverDesktop}`}>
-                <Link href="#competences">
-                  <a className={`${styles.line}`}>Mes Compétences</a>
+              <li
+                className={`${styles.py4} ${stylesLg.py0} ${stylesLg.hoverDesktop}`}
+              >
+                <Link href="#contact">
+                  <a className={`${styles.line}`}>Contact</a>
                 </Link>
               </li>
-              <li className={`${styles.pb6} ${stylesLg.py0} ${stylesLg.hoverDesktop}`}>
+              <li
+                className={`${styles.pb6} ${stylesLg.py0} ${stylesLg.hoverDesktop} ${styles.cv}`}
+              >
                 <a
                   href="/data/docs/cv.pdf"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className={`${styles.line}`}
                 >
                   CV
                 </a>

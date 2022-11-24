@@ -12,6 +12,7 @@ export const styles = {
   pt2: "pt-2",
   mt2: "mt-4",
   py4: "py-6",
+  mb6:"mb-6",
   z0: "z-0",
   z10: "z-10",
   border2: "border-2",
@@ -26,7 +27,9 @@ export const styles = {
   // hoverBlue: "hover:bg-cyan-800  ",
   line: " after:content-[''] after:block after:w-[0px] after:h-[2px] after:rounded-[2px] after:bg-[#EF43CF] after:transtion after:transition-[width] after:duration-200  after:ease-out hover:after:w-full",
   inlineBlock: "inline-block",
-  
+  fontCourgette:"font-courgette tracking-widest",
+  cv:"border-[#EF43CF] border-[2px] rounded-full p-2",
+  cvMobile:"border-[#EF43CF] border-[2px] rounded-md p-2",
 };
 
 export const stylesLg = {

@@ -27,7 +27,8 @@ export const styles = {
   fontSmokum: "font-smokum",
   fontCourgette: "font-courgette",
   fontJosefin: "font-josefin",
-  fontJosefin500 :"font-josefin500"
+  fontJosefin500: "font-josefin500",
+  trackingWidest:"tracking-widest"
 };
 
 export const stylesMd = {
