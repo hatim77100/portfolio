@@ -86,27 +86,27 @@ const Navbar = () => {
             <ul
               className={`${styles.uppercase} ${styles.fontSize} ${styles.fontBold} ${styles.color} ${styles.pl4} ${styles.hidden} ${stylesLg.inline} ${stylesLg.h16} ${stylesLg.flex}`}
             >
-              <li>
+              <li className={`${stylesLg.hoverDesktop}`}>
                 <Link href={"#"}>
-                  <a className={`${styles.line}`}>Accueil</a>
+                  <a className={`${styles.line} `}>Accueil</a>
                 </Link>
               </li>
-              <li className={`${styles.py4} ${stylesLg.py0}`}>
+              <li className={`${styles.py4} ${stylesLg.py0} ${stylesLg.hoverDesktop}`}>
                 <Link href="#contact">
                   <a className={`${styles.line}`}>Contact</a>
                 </Link>
               </li>
-              <li>
+              <li className={`${stylesLg.hoverDesktop}`}>
                 <Link href="#creations">
                   <a className={`${styles.line}`}>Mes créations</a>
                 </Link>
               </li>
-              <li className={`${styles.py4} ${stylesLg.py0} `}>
+              <li className={`${styles.py4} ${stylesLg.py0} ${stylesLg.hoverDesktop}`}>
                 <Link href="#competences">
                   <a className={`${styles.line}`}>Mes Compétences</a>
                 </Link>
               </li>
-              <li className={`${styles.pb6} ${stylesLg.py0}`}>
+              <li className={`${styles.pb6} ${stylesLg.py0} ${stylesLg.hoverDesktop}`}>
                 <a
                   href="/data/docs/cv.pdf"
                   target="_blank"

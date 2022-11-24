@@ -26,7 +26,7 @@ export const styles = {
     w1112:"w-11/12",
     bgBlack: "bg-black",
     bgArea: "bg-[#341367]",
-    button: "bg-[#341367] px-8 rounded-full py-2 text-2xl mt-4 mb-16 pointer hover:bg-[#8463f6] hover:text-[#341367]",
+    button: "bg-[#341367] px-8 rounded-full py-2 text-2xl mt-4 mb-16 pointer hover:bg-[#8463f6] hover:text-[6a007f] hover:scale-[1.2] transition-all",
     trackingWide: "tracking-wider",
     fontAlkalami: "font-Alkalami",
     fontSmokum: "font-smokum",

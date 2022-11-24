@@ -26,7 +26,6 @@ export const styles = {
   // hoverBlue: "hover:bg-cyan-800  ",
   line: " after:content-[''] after:block after:w-[0px] after:h-[2px] after:rounded-[2px] after:bg-[#EF43CF] after:transtion after:transition-[width] after:duration-200  after:ease-out hover:after:w-full",
   inlineBlock: "inline-block",
-  hoverDesktop:"hover:"
   
 };
 
@@ -41,5 +40,6 @@ export const stylesLg = {
   wFull: "lg:w-full",
   h16: "lg:h-[66px]",
   p0: "md:p-1",
+  hoverDesktop:"lg:hover:text-[#d0b3f2] lg:hover:scale-[1.13] lg:transition-all"
   
 }
