@@ -40,7 +40,7 @@ export const Present = () => {
           <br />
           <p className={styles.mt4}></p>
           Passionné depuis toujours par les nouvelles technologies et
-          l'univers du développement, je passe mon temps à coder des
+          l&apos;univers du développement, je passe mon temps à coder des
           projets divers et variés.
           <br />
           <p className={styles.mt4}></p>A l&apos;écoute du marché, je suis en recherche
