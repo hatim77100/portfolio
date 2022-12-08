@@ -9,7 +9,7 @@ export const AnimationName = () => {
         600, // Waits 2s
         "React", // Deletes 'One' and types 'Two'
         600, // Waits 2s
-        "Node", // Types 'Three' without deleting 'Two'
+        "Symfony", // Types 'Three' without deleting 'Two'
         600,
         "Full Js",
         600,

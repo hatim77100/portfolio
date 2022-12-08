@@ -1,5 +1,5 @@
 import { IconJs } from "public/data/imgCompetences/Js";
-import { IconeNode } from "public/data/imgCompetences/nodeJs";
+import { IconeSymfony } from "public/data/imgCompetences/symfony";
 import { Webpack } from "public/data/imgCompetences/webpack";
 import { IconePhp } from "../../../../public/data/imgCompetences/php";
 import { IconeReact } from "../../../../public/data/imgCompetences/react";
@@ -48,8 +48,8 @@ const Competence = () => {
             <p className={styles.mt4}>Javascript</p>
           </div>
           <div className={`${styles.flexCol}`}>
-          <IconeNode />
-            <p className={styles.mt4}>Node.js</p>
+          <IconeSymfony />
+            <p className={styles.mt4}>Symfony</p>
           </div>
         </div>
         <div className={`${styles.flexBetween} ${styles.mt12}`}
