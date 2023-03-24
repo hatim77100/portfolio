@@ -32,7 +32,7 @@ const Prestation = () => {
           return (
             <div key={project._id}>
               <Projets
-                image={<Image src={project.image} width={80} height={80} />}
+                image={<Image src={project.image} width={80} height={80} alt={project.title} />}
                 title={project.title}
                 p1={project.p1}
                 p2={project.p2}

@@ -4,6 +4,12 @@ import { stylesLg } from "./styles";
 
 
 const Contact = () => {
+
+  const handleclick = (event) => {
+    event.preventDefault();
+    console.log(event);
+  }
+
   return (
     <section>
       <div
@@ -79,7 +85,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className={styles.flexCenteritems}>
-                <button type="submit" className={`${styles.button}`}>
+                <button type="submit" className={`${styles.button}`} onClick={handleclick}>
                   Envoyer
                 </button>
               </div>

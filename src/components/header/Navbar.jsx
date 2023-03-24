@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import Iconav from "../assets/img/Iconnav";
-import Logo from "../assets/img/logo";
+import Logo from "../assets/img/logo.png";
 import Link from "next/link";
 import { styles } from "./styles";
 import { stylesLg } from "./styles";
+import NavDesktop from "./NavDesktop";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -15,14 +17,14 @@ const Navbar = () => {
     <header className={styles.fontCourgette}>
       <div className={`${stylesLg.gridCol2} ${stylesLg.h16}`}>
         <div className={`${styles.justifyCenter} ${styles.p4} ${stylesLg.p0}`}>
-          <Logo className={`${styles.z0} ${stylesLg.h60}`} />
+          <Image src= {Logo} className={`${stylesLg.h60}`} alt="logo"/>
           <Iconav
-            className={`${styles.z10} ${styles.cursor} `}
+            className={`${styles.cursor}`}
             onClick={toggle}
           />
         </div>
         <div>
-          {show === true ? (
+          {show ? (
             <nav>
               <div
                 className={`${styles.flex} ${styles.justifyCenter} ${styles.pb6} `}
@@ -50,35 +52,35 @@ const Navbar = () => {
                 data-aos-once="false"
                 data-aos-anchor-placement="top-center"
               >
-                <li>
+                <li onClick={toggle}>
                   <Link href={"#"}>
                     <a className={`${styles.line} ${styles.inlineBlock}`}>
                       Accueil
                     </a>
                   </Link>
                 </li>
-                <li className={`${styles.py4}`}>
+                <li className={`${styles.py4}`} onClick={toggle}>
                   <Link href="#contact">
                     <a className={`${styles.line} ${styles.inlineBlock}`}>
                       Contact
                     </a>
                   </Link>
                 </li>
-                <li>
+                <li onClick={toggle}>
                   <Link href="#creations">
                     <a className={`${styles.line} ${styles.inlineBlock}`}>
                       Créations
                     </a>
                   </Link>
                 </li>
-                <li className={`${styles.py4}`}>
+                <li className={`${styles.py4}`} onClick={toggle}>
                   <Link href="#competences">
                     <a className={`${styles.line} ${styles.inlineBlock}`}>
                       Compétences
                     </a>
                   </Link>
                 </li>
-                <li className={`${styles.mb6} ${styles.inlineBlock} ${styles.cvMobile}`}>
+                <li className={`${styles.mb6} ${styles.inlineBlock} ${styles.cvMobile}`} onClick={toggle}>
                   <a
                     href="/data/docs/cv.pdf"
                     target="_blank"
@@ -90,50 +92,7 @@ const Navbar = () => {
               </ul>
             </nav>
           ) : (
-            <ul
-              className={`${styles.uppercase} ${styles.fontSize} ${styles.fontBold} ${styles.color} ${styles.pl4} ${styles.hidden} ${stylesLg.inline} ${stylesLg.h16} ${stylesLg.flex}`}
-            >
-              <li className={`${stylesLg.hoverDesktop}`}>
-                <Link href={"#"}>
-                  <a className={`${styles.line} `}>Accueil</a>
-                </Link>
-              </li>
-              <li className={`${stylesLg.hoverDesktop}`}>
-                <Link href="#presentation">
-                  <a className={`${styles.line} `}>À propos</a>
-                </Link>
-              </li>
-              <li
-                className={`${styles.py4} ${stylesLg.py0} ${stylesLg.hoverDesktop}`}
-              >
-                <Link href="#competences">
-                  <a className={`${styles.line}`}>Compétences</a>
-                </Link>
-              </li>
-              <li className={`${stylesLg.hoverDesktop}`}>
-                <Link href="#creations">
-                  <a className={`${styles.line}`}>Créations</a>
-                </Link>
-              </li>
-              <li
-                className={`${styles.py4} ${stylesLg.py0} ${stylesLg.hoverDesktop}`}
-              >
-                <Link href="#contact">
-                  <a className={`${styles.line}`}>Contact</a>
-                </Link>
-              </li>
-              <li
-                className={`${styles.pb6} ${stylesLg.py0} ${stylesLg.hoverDesktop} ${styles.cv}`}
-              >
-                <a
-                  href="/data/docs/cv.pdf"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  CV
-                </a>
-              </li>
-            </ul>
+            <NavDesktop/>
           )}
         </div>
       </div>

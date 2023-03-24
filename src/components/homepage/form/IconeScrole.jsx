@@ -11,7 +11,7 @@ export const goToTop = () => {
 
 function ScrollToTop() {
   const [scrollPosition, setScrollPosition] = useState(0);
-
+  const max_scroll = 3500;
   useEffect(() => {
     const updatePosition = () => {
       setScrollPosition(window.pageYOffset);
@@ -28,7 +28,7 @@ function ScrollToTop() {
 
   return (
     <AnimatePresence>
-      {scrollPosition > 3500 && (
+      {scrollPosition > max_scroll && (
         <motion.button
           onClick={goToTop}
           className="flex justify-center items-center fixed bottom-[160px] right-[20px] w-[40px] h-[40px] text-[16px] leading-[48px]  border-none rounded-full text-white cursor-pointer "

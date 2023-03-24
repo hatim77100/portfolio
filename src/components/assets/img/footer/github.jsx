@@ -3,7 +3,7 @@ import github from "./github.png";
 
 const Github = () => {
     return (
-        <Image src={github} width={60} height={60} style={ {cursor:"pointer"}}/>
+        <Image src={github} width={60} height={60} style={ {cursor:"pointer"}} alt="github"/>
     )
 }
 
